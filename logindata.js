@@ -2,7 +2,7 @@ var http = require('http');
 var UtmpParser = require('utmp');
 
 http.createServer(function (req, res) {
-	res.writeHead(200, {'Content-Tpye': 'application/json'});
+	res.writeHead(200, {'Content-Type': 'application/json'});
         var p = new UtmpParser('/var/log/wtmp');
 	var wtmpList = [];
 	p.on('data', function(d) {
