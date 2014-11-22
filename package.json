@@ -1,0 +1,7 @@
+{
+    "name": "login-info",
+    "version": "0.1.0",
+    "dependencies": {
+        "utmp": "~0.1"
+    }
+}
