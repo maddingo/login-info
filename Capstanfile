@@ -1,0 +1,8 @@
+base: cloudius/osv-node
+
+#cmdline: /libnode.so /logindata.js
+cmdline: /cli.so
+
+files:
+  /logindata.js: logindata.js
+  /node_modules/utmp/lib/index.js: node_modules/utmp/lib/index.js
